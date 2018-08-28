@@ -1,0 +1,11 @@
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\bin\Debug\PPTOCx001I.exe
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\bin\Debug\PPTOCx001I.pdb
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\obj\x86\Debug\PPTOCx001I.Properties.Resources.resources
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\obj\x86\Debug\PPTOCx001I.csproj.GenerateResource.Cache
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\obj\x86\Debug\PPTOCx001I.exe
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\obj\x86\Debug\PPTOCx001I.pdb
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\obj\x86\Debug\PPTOCx001I.csprojResolveAssemblyReference.cache
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\obj\x86\Debug\PPTOCx001I.Frm_Plan_Tratamiento.resources
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\obj\x86\Debug\PreparacionDroga.FrmImprime.resources
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\bin\Debug\PPTOCx001I.exe.config
+c:\users\emanuel.islas\documents\visual studio 2010\Projects\PPTOCx001I\PPTOCx001I\bin\Debug\PPTO001I.exe.config

@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BED5F902-19C6-4B8A-AD8C-672A15CBD22E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PPTO001IE</RootNamespace>
+    <AssemblyName>PPTO001IE</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AyudaSpreadNET, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6b922ea657e944a2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\Archivos\AyudaSpreadNET.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.DataAccess, Version=2.112.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\Falp\Sistemas\Escritorios\Nutricion\Escritorio\Alimentos\Modificar\Modificar_Alimentos\bin\Debug\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Paciente, Version=2.2.1.2, Culture=neutral, PublicKeyToken=a2b86fbb7e83ed01, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\v4.0_2.2.1.2__a2b86fbb7e83ed01\v4.0_2.2.1.2__a2b86fbb7e83ed01\Paciente.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_Historial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Historial.Designer.cs">
+      <DependentUpon>Frm_Historial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Plan_Tratamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Plan_Tratamiento.Designer.cs">
+      <DependentUpon>Frm_Plan_Tratamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Presupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Presupuesto.Designer.cs">
+      <DependentUpon>Frm_Presupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Seleccion_Cama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Seleccion_Cama.Designer.cs">
+      <DependentUpon>Frm_Seleccion_Cama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Seleccion_Folios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Seleccion_Folios.Designer.cs">
+      <DependentUpon>Frm_Seleccion_Folios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Seleccion_HM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Seleccion_HM.Designer.cs">
+      <DependentUpon>Frm_Seleccion_HM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Seleccion_IMP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Seleccion_IMP.Designer.cs">
+      <DependentUpon>Frm_Seleccion_IMP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\Rpt_Presupuesto.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Presupuesto.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Rpt_Presupuestos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Presupuestos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ValidaMenu.cs" />
+    <Compile Include="\\fserver1\Orion\Departamentos\Informatica\Desarrollo Clinica\Clases Escritorio\Clases\ConectarFalp.cs">
+      <Link>ConectarFalp.cs</Link>
+    </Compile>
+    <Compile Include="\\fserver1\Orion\Departamentos\Informatica\Desarrollo Clinica\Clases Escritorio\Clases\MsgBoxUtil.cs">
+      <Link>MsgBoxUtil.cs</Link>
+    </Compile>
+    <Compile Include="\\fserver1\Orion\Departamentos\Informatica\Desarrollo Clinica\Clases Escritorio\Pantalla Imprimir\FrmImprime.cs">
+      <Link>FrmImprime.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="\\fserver1\Orion\Departamentos\Informatica\Desarrollo Clinica\Clases Escritorio\Pantalla Imprimir\FrmImprime.designer.cs">
+      <Link>FrmImprime.designer.cs</Link>
+      <DependentUpon>FrmImprime.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Frm_Historial.resx">
+      <DependentUpon>Frm_Historial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Plan_Tratamiento.resx">
+      <DependentUpon>Frm_Plan_Tratamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Presupuesto.resx">
+      <DependentUpon>Frm_Presupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Seleccion_Cama.resx">
+      <DependentUpon>Frm_Seleccion_Cama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Seleccion_Folios.resx">
+      <DependentUpon>Frm_Seleccion_Folios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Seleccion_HM.resx">
+      <DependentUpon>Frm_Seleccion_HM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Seleccion_IMP.resx">
+      <DependentUpon>Frm_Seleccion_IMP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reportes\Rpt_Presupuesto.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Presupuesto.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Rpt_Presupuestos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Presupuestos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="\\fserver1\Orion\Departamentos\Informatica\Desarrollo Clinica\Clases Escritorio\Pantalla Imprimir\FrmImprime.resx">
+      <Link>FrmImprime.resx</Link>
+      <DependentUpon>FrmImprime.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plan_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderGV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderGV1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analitica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analitica %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detalle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prespuesto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ver_ficha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloqueo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_save16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_docx32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_docx24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medical Invoice Flat Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botiquin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camas_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camas_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linpiar_16x16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.Properties.Resources.resources
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PreparacionDroga.FrmImprime.resources
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.csproj.GenerateResource.Cache
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\bin\Debug\PPTO001IE.exe.config
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\bin\Debug\PPTO001IE.exe
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\bin\Debug\PPTO001IE.pdb
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.exe
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.pdb
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.Frm_Historial.resources
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.Frm_Plan_Tratamiento.resources
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.Frm_Presupuesto.resources
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.Frm_Seleccion_Cama.resources
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.Frm_Seleccion_Folios.resources
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.Frm_Seleccion_HM.resources
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.Frm_Seleccion_IMP.resources
+C:\Users\emanuel.islas\Desktop\PRODUCCION\PPTOCx001I\obj\x86\Debug\PPTO001IE.csprojResolveAssemblyReference.cache
